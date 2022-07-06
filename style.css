@@ -1,4 +1,38 @@
 body {
+    font-family: 'Kaisei Tokumin', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.top-section {
+    background-image: url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    padding: 210px;
+}
+
+.top-section-contain {
+    text-align: center;
+    color: white;
+}
+
+.top-section-contain h1 {
+    font-size: 70px;
+}
+
+.top-section-contain p {
+    width: 500px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+.donate-button {
+    color: white;
+    font-weight: 700;
+    background-color: orangered;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 10px;
 }
