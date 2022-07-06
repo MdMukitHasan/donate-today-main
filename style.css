@@ -29,6 +29,10 @@ body {
     padding-bottom: 50px;
 }
 
+.donate-section {
+    margin-bottom: 100px;
+}
+
 .donate-button {
     color: white;
     font-weight: 700;
@@ -79,4 +83,50 @@ body {
 .other-amount hr {
     width: 50%;
     margin-bottom: 40px;
+}
+
+.donate-plan {
+    display: flex;
+}
+
+.food-donate {
+    width: 25%;
+    margin-left: 210px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-color: whitesmoke;
+    padding: 34px;
+}
+
+.shelter {
+    width: 25%;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-color: lightpink;
+    padding: 34px;
+}
+
+.education {
+    width: 25%;
+    margin-left: 27px;
+    margin-top: 50px;
+    margin-right: 175px;
+    margin-bottom: 80px;
+    background-color: papayawhip;
+    padding: 34px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(16, 10, 10);
+    padding: 25px;
+}
+
+footer h1 {
+    color: red;
+}
+
+footer p {
+    color: aquamarine;
 }
