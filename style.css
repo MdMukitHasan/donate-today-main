@@ -11,6 +11,7 @@ body {
     background-image: url(images/donation7.jpg);
     background-repeat: no-repeat;
     padding: 210px;
+    margin-bottom: 100px;
 }
 
 .top-section-contain {
@@ -35,4 +36,37 @@ body {
     padding: 20px 30px;
     text-decoration: none;
     border-radius: 10px;
+}
+
+.donate-today {
+    text-align: center;
+}
+
+.donate-today h1 {
+    font-size: 40px;
+}
+
+.donate-today p {
+    width: 500px;
+    padding-left: 400px;
+    color: gray;
+}
+
+.donate-money {
+    display: flex;
+    margin-left: 360px;
+}
+
+.money-digit {
+    width: 11%;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    background-color: ghostwhite;
+    margin: 10px;
+}
+
+.color-tk {
+    background-color: rgb(235, 187, 187);
+    border: 2px solid red;
 }
